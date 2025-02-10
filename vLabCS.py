@@ -6,8 +6,8 @@ def open_link(choice):
         "2": "https://quizizz.com/join",
         "3": "https://github.com/zigoo0/webpwn3r",
         "4": "https://github.com/sqlmapproject/sqlmap",
-        "5": "https://quizizz.com/join",
-        "6": "https://quizizz.com/join",
+        "5": "https://github.com/rapid7/metasploit-framework",
+        "6": "https://github.com/zaproxy/zaproxy",
         "7": "https://quizizz.com/join"
       
     }
@@ -24,8 +24,8 @@ def main():
         print("2. Gamifikasi")
         print("3. Scanner Tools")
         print("4. Pentest Tools")
-        print("5. Gamifikasi")
-        print("6. Gamifikasi")
+        print("5. Framework Security Tools")
+        print("6. Web Scanner")
         print("7. Gamifikasi")
         print("8. Keluar")
         
