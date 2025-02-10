@@ -19,20 +19,20 @@ def open_link(choice):
 
 def main():
     while True:
-        print("\nMenu Tautan Web:")
-        print("1. AI")
+        print("\nMenu Link:")
+        print("1. AI Tool")
         print("2. Gamifikasi")
-        print("3. Scanner Tools")
-        print("4. Pentest Tools")
-        print("5. Framework Security Tools")
+        print("3. Scanner Tool")
+        print("4. Pentest Tool")
+        print("5. Framework Security Tool")
         print("6. Web Scanner")
-        print("7. Gamifikasi")
-        print("8. Keluar")
+        print("7. Gamification")
+        print("8. Exit")
         
-        choice = input("Pilih nomor situs web yang ingin dibuka: ")
+        choice = input("Pilih nomor: ")
         
         if choice == "4":
-            print("Keluar dari program.")
+            print("Keluar dari program")
             break
         else:
             open_link(choice)
