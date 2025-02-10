@@ -7,8 +7,8 @@ def open_link(choice):
         "3": "https://github.com/zigoo0/webpwn3r",
         "4": "https://github.com/sqlmapproject/sqlmap",
         "5": "https://github.com/rapid7/metasploit-framework",
-        "6": "https://github.com/zaproxy/zaproxy",
-        "7": "https://quizizz.com/join"
+        "6": "https://github.com/zaproxy/zaproxy"
+       
       
     }
     
@@ -21,17 +21,16 @@ def main():
     while True:
         print("\nMenu Link:")
         print("1. AI Tool")
-        print("2. Gamifikasi")
+        print("2. Gamification")
         print("3. Scanner Tool")
         print("4. Pentest Tool")
         print("5. Framework Security Tool")
         print("6. Web Scanner")
-        print("7. Gamification")
-        print("8. Exit")
+        print("7. Exit")
         
         choice = input("Pilih nomor: ")
         
-        if choice == "4":
+        if choice == "7":
             print("Keluar dari program")
             break
         else:
